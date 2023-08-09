@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar section */
+.navbar{
+    background-color: #000000;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #80aded;
+    background-color: #fcfcfc;
+}
+.navbar-brand{
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* main section */
+.main{
+    background: url(Profile.png)no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 95vh;
+}
+.main h1{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.main h4{
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid #2375b3;
+    width: 100%;
+}
+.main .bt1{
+    color: white;
+    background-color: #2375b3;
+    height: 55px;
+    width: 138px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: #2f98e8;
+    transition: 0.5s;
+}
+.main .bt2 {
+    color: #2375b3;
+    background-color: transparent;
+    height: 55px;
+    width: 138px;
+    outline: none;
+    border: 1px solid #2375b3;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover {
+    background-color: #2375b3;
+    transition: 0.5s;
+    color: white;
+}
+
+
+/* about section */
+.about{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+.about img{
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.btn1 {
+    color: white;
+    background-color: #000204;
+    height: 55px;
+    width: 150px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2 {
+    color: black;
+    background-color: transparent;
+    height: 55px;
+    width: 150px;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn2:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+
+/* skills section */
+.skills{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+.skills h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.skills h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.skills h5{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+}
+.progress-bar{
+    background-color: white;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.progress-bar div span{
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000
+}
+
+.c {
+    background: #2375b3;
+    animation: c linear forwards;
+}
+.html {
+    background: #2375b3;
+    animation: html linear forwards;
+}
+.javascript {
+    background: #2375b3;
+    animation: javascript linear forwards;
+}
+.python {
+    background: #2375b3;
+    animation: python linear forwards;
+}
+.php {
+    background: #2375b3;
+    animation: php linear forwards;
+}
+.mysql{
+    background: #2375b3;
+    animation: mysql linear forwards;
+}
+.mongodb{
+    background: #2375b3;
+    animation: mongodb linear forwards;
+}
+.oracle{
+    background: #2375b3;
+    animation: oracle linear forwards;
+}
+
+.c span {
+    border: 1px solid #2375b3;
+}
+.html span {
+    border: 1px solid #2375b3;
+}
+.javascript span {
+    border: 1px solid #2375b3;
+}
+.python span {
+    border: 1px solid #2375b3;
+}
+.php span {
+    border: 1px solid #2375b3;
+}
+.mysql span {
+    border: 1px solid #2375b3;
+}
+.mongodb span {
+    border: 1px solid #2375b3;
+}
+.oracle span {
+    border: 1px solid #2375b3;
+}
+
+@keyframes c {
+    100%{
+        width: 95%;
+    }
+}
+@keyframes html {
+    100% {
+        width: 85%;
+    }
+}
+@keyframes javascript {
+    100% {
+        width: 60%;
+    }
+}
+@keyframes python {
+    100% {
+        width: 75%;
+    }
+}
+@keyframes php {
+    100% {
+        width: 45%;
+    }
+}
+@keyframes mysql {
+    100% {
+        width: 80%;
+    }
+}
+@keyframes mongodb {
+    100% {
+        width: 35%;
+    }
+}
+@keyframes oracle {
+    100% {
+        width: 85%;
+    }
+}
+
+
+/* academic section */
+.academic {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+.academic h1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.card-img-top{
+    border-radius: 40px;
+    padding: 20px;
+}
+.card{
+    transition: all 0.3s;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card:hover{
+    transform: scale(1.15);
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn {
+    color: white;
+    background-color: #000204;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+/* MyWork Section */
+.mywork {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+.mywork h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.card1 {
+    background: white;
+    transition: all 0.3s;
+    border-radius: 30px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgb(255, 255, 255) 0px 0px 0px 6px, rgb(0, 0, 0) 0px 0px 0px 9px, rgb(255, 255, 255) 0px 0px 0px 12px, rgb(0, 0, 0) 0px 0px 0px 15px;
+}
+.card1:hover {
+    transform: scale(1.15);
+}
+.btn4 {
+    color: rgb(255, 255, 255);
+    background-color: #000204;
+    height: 60px;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn4:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+/* contact section */
+.contact {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+
+.contact h1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.circle:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.btn3 {
+    color: rgb(255, 255, 255);
+    background-color: #000204;
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn3:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+/* footer section */
+/* footer{
+    background-color: black;
+    color: white;
+} */
