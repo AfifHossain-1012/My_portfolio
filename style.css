@@ -27,6 +27,10 @@
     text-decoration: none;
 }
 
+.all{
+    display: flex;
+    flex-direction: column;
+}
 
 /* main section */
 .main{
